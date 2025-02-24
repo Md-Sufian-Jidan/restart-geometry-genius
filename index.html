@@ -141,16 +141,16 @@
                         <h2 class="card-title">Ellipse</h2>
                         <p class="text-center text-2xl">Area = &pi;ab</p>
                         <div>
-                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number"
-                                placeholder="b"> <span>cm</span>
-                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number"
-                                placeholder="h"> <span>cm</span>
+                            <input id="ellipse-major" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="major"> <span>cm</span>
+                        <input id="ellipse-minor" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="minor"> <span>cm</span>
                         </div>
                         <div>
-                            <p class="text-2xl">Area : <span id="triangle-area"></span> <span>cm</span><sup>2</sup></p>
+                            <p class="text-2xl">Area : <span id="ellipse-area"></span> <span>cm</span><sup>2</sup></p>
                         </div>
                         <div class="card-actions justify-end">
-                            <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -166,6 +166,7 @@
     <script src="scripts/rectangle-area.js"></script>
     <script src="scripts/parallelogram-area.js"></script>
     <script src="scripts/pentagon-area.js"></script>
+    <script src="scripts/ellipse-area.js"></script>
 </body>
 
 </html>
