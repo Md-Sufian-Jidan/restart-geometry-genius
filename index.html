@@ -29,8 +29,10 @@
                         <h2 class="card-title">Triangle</h2>
                         <p class="text-center text-2xl">Area = 0.5 x b x h</p>
                         <div>
-                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="b"> <span>cm</span>
-                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="h"> <span>cm</span>
+                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="b"> <span>cm</span>
+                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="h"> <span>cm</span>
                         </div>
                         <div>
                             <p class="text-2xl">Area : <span id="triangle-area"></span> <span>cm</span><sup>2</sup></p>
@@ -49,8 +51,10 @@
                         <h2 class="card-title">Rectangle</h2>
                         <p class="text-center text-2xl">Area (A) = W x I</p>
                         <div>
-                            <input id="rectangle-width" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="b"> <span>cm</span>
-                            <input id="rectangle-length" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="h"> <span>cm</span>
+                            <input id="rectangle-width" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="b"> <span>cm</span>
+                            <input id="rectangle-length" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="h"> <span>cm</span>
                         </div>
                         <div>
                             <p class="text-2xl">Area : <span id="rectangle-area"></span> <span>cm</span><sup>2</sup></p>
@@ -60,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                <!-- parallelogram -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure>
                         <img src="images/parallelogram.png" alt="triangle" />
@@ -69,14 +73,18 @@
                         <h2 class="card-title">parallelogram</h2>
                         <p class="text-center text-2xl">Area (A) = b x h</p>
                         <div>
-                            <input id="parallelogram-base" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="b"> <span>cm</span>
-                            <input id="parallelogram-height" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="h"> <span>cm</span>
+                            <input id="parallelogram-base" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="b"> <span>cm</span>
+                            <input id="parallelogram-height" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="h"> <span>cm</span>
                         </div>
                         <div>
-                            <p class="text-2xl">Area : <span id="parallelogram-area"></span> <span>cm</span><sup>2</sup></p>
+                            <p class="text-2xl">Area : <span id="parallelogram-area"></span> <span>cm</span><sup>2</sup>
+                            </p>
                         </div>
                         <div class="card-actions justify-end">
-                            <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculateParallelogramArea()"
+                                class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -89,8 +97,10 @@
                         <h2 class="card-title">Rhombus</h2>
                         <p class="text-center text-2xl">Area = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
                         <div>
-                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="b"> <span>cm</span>
-                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="h"> <span>cm</span>
+                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="b"> <span>cm</span>
+                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="h"> <span>cm</span>
                         </div>
                         <div>
                             <p class="text-2xl">Area : <span id="triangle-area"></span> <span>cm</span><sup>2</sup></p>
@@ -109,14 +119,16 @@
                         <h2 class="card-title">Pentagon</h2>
                         <p class="text-center text-2xl">Area (A) = 0.5 x p x h</p>
                         <div>
-                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="b"> <span>cm</span>
-                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="h"> <span>cm</span>
+                            <input id="pentagon-perimeter" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="peri"> <span>cm</span>
+                            <input id="pentagon-apothem" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="apo"> <span>cm</span>
                         </div>
                         <div>
-                            <p class="text-2xl">Area : <span id="triangle-area"></span> <span>cm</span><sup>2</sup></p>
+                            <p class="text-2xl">Area : <span id="pentagon-area"></span> <span>cm</span><sup>2</sup></p>
                         </div>
                         <div class="card-actions justify-end">
-                            <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -129,8 +141,10 @@
                         <h2 class="card-title">Ellipse</h2>
                         <p class="text-center text-2xl">Area = &pi;ab</p>
                         <div>
-                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="b"> <span>cm</span>
-                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number" placeholder="h"> <span>cm</span>
+                            <input id="triangle-base" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="b"> <span>cm</span>
+                            <input id="triangle-height" class="w-20 text-2xl p-2 rounded-sm" type="number"
+                                placeholder="h"> <span>cm</span>
                         </div>
                         <div>
                             <p class="text-2xl">Area : <span id="triangle-area"></span> <span>cm</span><sup>2</sup></p>
@@ -151,6 +165,7 @@
     <script src="scripts/triangle-calculate.js"></script>
     <script src="scripts/rectangle-area.js"></script>
     <script src="scripts/parallelogram-area.js"></script>
+    <script src="scripts/pentagon-area.js"></script>
 </body>
 
 </html>
